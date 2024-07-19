@@ -26,11 +26,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.4.1-SNAPSHOT</version>
-      <type>maven-plugin</type>
-    </dependency>
   </dependencies>
 
   <build>
@@ -57,6 +52,10 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+        </plugin>
+	<plugin>
+	  <artifactId>maven-war-plugin</artifactId>
+          <version>3.4.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
