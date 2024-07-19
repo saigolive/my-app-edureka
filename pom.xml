@@ -11,7 +11,6 @@
   <name>my-app-edureka</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-  <packaging>war</packaging>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,6 +24,12 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.4.1-SNAPSHOT</version>
+      <type>maven-plugin</type>
     </dependency>
   </dependencies>
 
